@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/futurademic.otf");
+}
+@font-face {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/YesevaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("../assets/fonts/futurabookc.otf");
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-width {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.gold-color {
+  color: #E3B873;
+}
+
+.header-and-completed-projects {
+  background-color: #131313;
+  color: white;
+}
+.header-and-completed-projects h1, .header-and-completed-projects p {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 1100px) {
+  .header-and-completed-projects h1, .header-and-completed-projects p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 870px) {
+  .header-and-completed-projects h1, .header-and-completed-projects p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 530px) {
+  .header-and-completed-projects h1, .header-and-completed-projects p {
+    font-size: 12px;
+  }
+}
+.header-and-completed-projects header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 7% 22px 5.7%;
+}
+@media (max-width: 1100px) {
+  .header-and-completed-projects header {
+    padding: 24px 2% 22px 1.7%;
+  }
+}
+@media (max-width: 530px) {
+  .header-and-completed-projects header {
+    padding: 23px 18px;
+  }
+}
+.header-and-completed-projects .logo {
+  text-transform: uppercase;
+  color: #E3B873;
+  margin: auto 0;
+}
+.header-and-completed-projects .nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0;
+}
+.header-and-completed-projects .nav__element {
+  margin-left: 47.09px;
+}
+.header-and-completed-projects .nav__element:hover {
+  color: #E3B873;
+}
+.header-and-completed-projects .nav__element__home {
+  margin-left: 0;
+}
+@media (max-width: 1300px) {
+  .header-and-completed-projects .nav__element {
+    margin-left: 30px;
+  }
+  .header-and-completed-projects .nav__element__home {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .header-and-completed-projects .nav__element {
+    margin-left: 20px;
+  }
+  .header-and-completed-projects .nav__element__home {
+    margin-left: 0;
+  }
+}
+@media (max-width: 870px) {
+  .header-and-completed-projects .nav {
+    display: none;
+  }
+}
+.header-and-completed-projects .request-a-cal {
+  display: flex;
+  justify-content: space-between;
+}
+.header-and-completed-projects .request-a-cal a {
+  margin: auto 0;
+}
+.header-and-completed-projects .request-a-cal__number {
+  text-decoration-line: underline;
+  color: #E3B873;
+  margin-right: 45px;
+}
+@media (max-width: 1200px) {
+  .header-and-completed-projects .request-a-cal__number {
+    margin-right: 14px;
+  }
+}
+@media (max-width: 530px) {
+  .header-and-completed-projects .request-a-cal__number {
+    color: white;
+    text-decoration-line: none;
+    margin-right: 0;
+  }
+}
+.header-and-completed-projects .request-a-cal__button {
+  padding: 13px 33px;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.header-and-completed-projects .request-a-cal__button:hover {
+  background: #E3B820;
+}
+@media (max-width: 530px) {
+  .header-and-completed-projects .request-a-cal__button {
+    display: none;
+  }
+}
+
+.instagram-image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 707px;
+}
+@media (max-width: 1100px) {
+  .instagram-image-wrapper {
+    height: 550px;
+  }
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper {
+    height: 476px;
+  }
+}
+.instagram-image-wrapper__instagram {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 6%;
+  padding: 199px 31px 408px;
+}
+@media (max-width: 1100px) {
+  .instagram-image-wrapper__instagram {
+    display: none;
+  }
+}
+.instagram-image-wrapper__instagram__block {
+  position: relative;
+}
+.instagram-image-wrapper__instagram__block p {
+  transform: rotate(90deg);
+  transform-origin: left;
+  color: #E3B873;
+}
+.instagram-image-wrapper__instagram__block p:hover {
+  color: #E3B820;
+}
+.instagram-image-wrapper__instagram__block img {
+  position: absolute;
+  top: 100px;
+}
+.instagram-image-wrapper__image-block {
+  background-image: url("../assets/image_block.png");
+  background-position: center;
+  width: 94%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 194px 0px 0px 60px;
+}
+@media (max-width: 1100px) {
+  .instagram-image-wrapper__image-block {
+    width: 100%;
+    padding-top: 129px;
+  }
+}
+@media (max-width: 1100px) {
+  .instagram-image-wrapper__image-block {
+    padding-top: 85px;
+    padding-left: 18px;
+  }
+}
+.instagram-image-wrapper__image-block h2 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+}
+.instagram-image-wrapper__image-block h2:nth-child(2) {
+  margin-bottom: 19px;
+}
+@media (max-width: 1100px) {
+  .instagram-image-wrapper__image-block h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__image-block h2 {
+    font-size: 23px;
+    line-height: 31px;
+  }
+}
+.instagram-image-wrapper__image-block p {
+  max-width: 504px;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+@media (max-width: 1100px) {
+  .instagram-image-wrapper__image-block p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__image-block p {
+    width: 82%;
+  }
+}
+.instagram-image-wrapper__image-block__btns {
+  display: flex;
+  margin-top: 41px;
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__image-block__btns {
+    flex-direction: column;
+  }
+}
+.instagram-image-wrapper__image-block__btns p {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  width: 100%;
+}
+.instagram-image-wrapper__image-block__btns__calculate-btn {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 207px;
+  height: 51px;
+  margin-right: 20px;
+  background-color: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border-radius: 2px;
+}
+.instagram-image-wrapper__image-block__btns__calculate-btn:hover {
+  background-color: #E3B820;
+}
+.instagram-image-wrapper__image-block__btns__calculate-btn p {
+  padding-top: 19px;
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__image-block__btns__calculate-btn {
+    margin-right: 0;
+    margin-bottom: 26px;
+    width: 338.61px;
+    height: 51px;
+  }
+}
+.instagram-image-wrapper__image-block__btns__submit-btn {
+  width: 207px;
+  height: 51px;
+  padding: 19.09px 21px 20.57px 22px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__image-block__btns__submit-btn {
+    display: none;
+  }
+}
+.instagram-image-wrapper__image-block__btns__submit-btn:hover {
+  background-color: #E3B820;
+}
+.instagram-image-wrapper__image-block__btns__submit-btn__mobile {
+  display: none;
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__image-block__btns__submit-btn__mobile {
+    display: block;
+    width: 338.61px;
+    height: 51px;
+  }
+}
+.instagram-image-wrapper__scroll {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  top: -48px;
+  left: -40px;
+  width: 247px;
+  height: 97px;
+  padding: 34px 48px;
+  background-color: #131313;
+}
+@media (max-width: 550px) {
+  .instagram-image-wrapper__scroll {
+    display: none;
+  }
+}
+.instagram-image-wrapper__scroll div {
+  display: flex;
+  transition: all 0.5s;
+}
+.instagram-image-wrapper__scroll p {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin: auto;
+}
+.instagram-image-wrapper__scroll__button {
+  position: relative;
+}
+.instagram-image-wrapper__scroll__button img:nth-child(2) {
+  position: absolute;
+  top: 12px;
+  left: 8.5px;
+}
+.instagram-image-wrapper__scroll div:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.completed-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */
