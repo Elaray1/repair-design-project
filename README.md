@@ -1,1 +1,1 @@
-# repair-design-project
+# Don't need to install something. Just open index.html ;)
