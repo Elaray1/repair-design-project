@@ -102,7 +102,7 @@ input:focus {
     justify-content: space-between;
     margin: auto 0;
     &__element {
-      margin-left: 47.09px;
+      margin-left: 47px;
       &:hover {
         color: $gold-color;
       }
@@ -283,7 +283,7 @@ input:focus {
       &__submit-btn {
         width: 207px;
         height: 51px;
-        padding: 19.09px 21px 20.57px 22px;
+        padding: 19px 21px 21px 22px;
         border: 1px solid #FFFFFF;
         @include border-box();
         border-radius: 2px;
@@ -332,7 +332,7 @@ input:focus {
       & img:nth-child(2) {
         position: absolute;
         top: 12px;
-        left: 8.5px;
+        left: 9px;
       }
     }
     & div:hover {
@@ -387,7 +387,7 @@ input:focus {
     &__title img {
       width: 92px;
       height: 1px;
-      margin-top: 54.54px;
+      margin-top: 55px;
       margin-left: 6px;
     }
     & p {
@@ -461,15 +461,15 @@ input:focus {
   &__slider__nav-list ul{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 45.36px;
+    margin-bottom: 45px;
     max-width: 623px;
     & li {
       @include font('Yeseva One', normal, normal);
       font-size: 14px;
       line-height: 19px;
       text-transform: uppercase;
-      margin-left: 60.5px;
-      padding-bottom: 6.68px;
+      margin-left: 61px;
+      padding-bottom: 7px;
       border-bottom: 1px solid transparent;
       &:first-child {
         margin: 0;
@@ -523,26 +523,26 @@ input:focus {
     }
     & img {
       cursor: pointer;
-      margin-left: 29.5px;
+      margin-left: 30px;
       transition: all 1s;
       &:hover {
         transform: scale(1.1);
         transition: transform 1s;
       }
       &:first-child {
-        margin-right: 29.5px;
+        margin-right: 30px;
         margin-left: 0;
       }
     }
     &_radio {
       display: flex;
       & div {
-        width: 9.57px;
-        height: 9.57px;
+        width: 10px;
+        height: 10px;
         background: rgba(255, 255, 255, 0.3);
         border-radius: 30px;
         &:nth-child(2) {
-          margin: 0 17.54px;
+          margin: 0 18px;
         }
         &:hover {
           cursor: pointer;
@@ -646,7 +646,7 @@ input:focus {
     }
   }
 }
-.content-width-oc {
+.content-width__online-control {
   margin-top: -350px;
   overflow: visible;
 }
@@ -671,14 +671,14 @@ input:focus {
     &_images {
       margin-top: 14px;
       margin-left: 35px;
-      margin-bottom: 31.21px;
+      margin-bottom: 31px;
     }
   }
   &__description {
     img {
       margin-left: 48%;
-      margin-top: 62.5px;
-      margin-bottom: 34.5px;
+      margin-top: 63px;
+      margin-bottom: 35px;
     }
     p {
       width: 49%;
@@ -757,7 +757,7 @@ input:focus {
   }
   .checkbox1 {
     position: relative;
-    margin-right: 8.62px;
+    margin-right: 9px;
     width: 18px;
     height: 18px;
     background-color: gray;
@@ -769,7 +769,7 @@ input:focus {
     }
   }
   .online-control__form_checkbox label {
-    max-width: 285.7px;
+    max-width: 286px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -812,12 +812,14 @@ input:focus {
     }
     h2 {
       font-size: 22px;
-      line-height: 138.6%;
+      line-height: 139%;
     }
-    ::-moz-placeholder          {color:white;}/* Firefox 19+ */
-    ::-webkit-input-placeholder {color:white;}
-    :-moz-placeholder           {color:white;}/* Firefox 18- */
-    :-ms-input-placeholder      {color:white;}
+    ::-moz-placeholder {color:white}
+    ::-webkit-input-placeholder {color:white}
+    :-moz-placeholder {color:white}
+    :-ms-input-placeholder {
+      color:white;
+    }
     &__form .name input, &__form .number input {
       background-color: $black-color;
       font-size: 18px;
@@ -850,7 +852,7 @@ input:focus {
       margin-bottom: 63px;
     }
     &_inputs .number {
-      margin-bottom: 26.5px;
+      margin-bottom: 27px;
     }
     &_inputs .name input, &_inputs .number input {
       width: 100%;
@@ -890,7 +892,7 @@ input:focus {
     margin-bottom: 21px;
   }
   .online-control {
-    padding-bottom: 88.43px;
+    padding-bottom: 88px;
   }
 }
 .types-of-repair {
@@ -980,7 +982,7 @@ input:focus {
     }
     &__title h2 {
       font-size: 22px;
-      line-height: 138.6%;
+      line-height: 139%;
       margin-bottom: 17px;
     }
     &__content img {
@@ -995,12 +997,12 @@ input:focus {
       top: 223px;
       h3 {
         font-size: 15px;
-        line-height: 138.6%;
+        line-height: 139%;
         margin-bottom: 10px;
       }
       ul {
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 170%;
       }
     }
     &__content_block_btn {
@@ -1034,8 +1036,8 @@ input:focus {
         &_number {
           display: flex;
           align-items: center;
-          width: 41.76px;
-          height: 41.76px;
+          width: 42px;
+          height: 42px;
           background-color: $gold-color;
           border-radius: 100%;
           h4 {
@@ -1106,16 +1108,18 @@ input:focus {
         color: #FFFFFF;
       }
     }
-    ::-moz-placeholder          {color:white;}/* Firefox 19+ */
-    ::-webkit-input-placeholder {color:white;}
-    :-moz-placeholder           {color:white;}/* Firefox 18- */
-    :-ms-input-placeholder      {color:white;}
+    ::-moz-placeholder {color:white}
+    ::-webkit-input-placeholder {color:white}
+    :-moz-placeholder {color:white}
+    :-ms-input-placeholder {
+      color:white;
+    }
     &__form_inputs input{
       padding-bottom: 8px;
       width: 100%;
       background-color: #131313;
       font-size: 18px;
-      line-height: 138.72%;
+      line-height: 139%;
       color: white;
       border: none;
       border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -1163,7 +1167,7 @@ input:focus {
     }
     .checkbox2 {
       position: relative;
-      margin-right: 8.62px;
+      margin-right: 9px;
       width: 18px;
       height: 18px;
       background-color: gray;
@@ -1204,7 +1208,7 @@ input:focus {
     }
     &__piggy-bank {
       display: flex;
-      margin-top: 38.5px;
+      margin-top: 39px;
       margin-left: 20px;
       p {
         margin: auto 25px;
@@ -1240,8 +1244,8 @@ input:focus {
   display: flex;
   margin-top: 242px;
   padding-left: 99px;
-  padding-top: 137.5px;
-  padding-bottom: 84.5px;
+  padding-top: 138px;
+  padding-bottom: 85px;
   h2 {
     margin-bottom: 32px;
     font-family: 'Yeseva One';
@@ -1274,31 +1278,31 @@ input:focus {
       position: absolute;
     }
     .clock {
-      left: 40.76%;
+      left: 41%;
       top: -41px;
       @media (max-width: 1400px) {
-        left: 51.76%;
+        left: 51%;
       }
     }
     .clock-mobile {
       display: none;
     }
     .canvas {
-      left: 40.76%;
+      left: 41%;
       top: 555px;
       @media (max-width: 1400px) {
-        left: 51.76%;
+        left: 52%;
       }
     }
     .sofa {
-      left: 68.33%;
+      left: 68%;
       top: -113px;
       @media (max-width: 1400px) {
         display: none;
       }
     }
     .vase {
-      left: 68.33%;
+      left: 68%;
       top: 199px;
       @media (max-width: 1400px) {
         display: none;
@@ -1323,7 +1327,7 @@ input:focus {
     }
     h2 {
       font-size: 22px;
-      line-height: 138.6%;
+      line-height: 139%;
       text-align: center;
       text-transform: uppercase;
     }
@@ -1364,8 +1368,7 @@ input:focus {
   }
 }
 .design-project {
-  padding: 0 100px;
-  padding-top: 154px;
+  padding: 154px 100px 0;
   &__title {
     text-align: center;
     h2 {
@@ -1476,17 +1479,17 @@ input:focus {
     background-color: $black-color;
     &__title h2 {
       font-size: 22px;
-      line-height: 138.6%;
+      line-height: 139%;
       color: white;
     }
     &__title p {
       font-size: 15px;
-      line-height: 135.84%;
+      line-height: 136%;
       color: white;
     }
     &__list_elem img {
       width: 340px;
-      height: 365.15px;
+      height: 365px;
     }
     &__list_elem_info {
       left: 0;
@@ -1495,20 +1498,20 @@ input:focus {
       padding-top: 18px;
       h3 {
         font-size: 15px;
-        line-height: 138.6%;
+        line-height: 139%;
       }
       p {
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 170%;
       }
     }
     &__list_elem_cost {
-      width: 190.43px;
+      width: 190px;
       height: 40px;
       left: 0;
       p {
         font-size: 15px;
-        line-height: 138.6%;
+        line-height: 139%;
       }
     }
     &__list_elem:first-child {
@@ -1531,7 +1534,7 @@ input:focus {
 }
 .steps-to-the-goal {
   display: flex;
-  padding: 428.33px 7% 0;
+  padding: 428px 7% 0;
   margin-top: -144px;
   &__title {
     margin-bottom: 92px;
@@ -1555,7 +1558,7 @@ input:focus {
     }
     div img {
       margin-top: 52px;
-      margin-left: 38.3px;
+      margin-left: 38px;
       width: 92px;
       height: 1px;
     }
@@ -1595,9 +1598,9 @@ input:focus {
       display: flex;
     }
     &_radio div {
-      margin-right: 17.54px;
-      width: 9.57px;
-      height: 9.57px;
+      margin-right: 18px;
+      width: 10px;
+      height: 10px;
       background: rgba(255, 255, 255, 0.3);
       border-radius: 30px;
       &:hover {
@@ -1606,10 +1609,10 @@ input:focus {
       }
     }
     &_radio div:first-child {
-      margin-left: 29.5px;
+      margin-left: 30px;
     }
     &_radio div:last-child {
-      margin-right: 29.5px;
+      margin-right: 30px;
     }
     img:hover {
       cursor: pointer;
@@ -1630,7 +1633,7 @@ input:focus {
   &__slider {
     width: 100%;
     &_img {
-      margin-left: 136.71px;
+      margin-left: 137px;
       margin-top: 45px;
     }
     &_elem {
@@ -1651,7 +1654,7 @@ input:focus {
         line-height: 21px;
         text-transform: uppercase;
         color: white;
-        padding-bottom: 4.36px;
+        padding-bottom: 4px;
         border-bottom: 1px solid $gold-color;
       }
       p {
@@ -1674,7 +1677,7 @@ input:focus {
 @media (max-width: 1400px) {
   .steps-to-the-goal {
     justify-content: center;
-    padding-top: 551.33px;
+    padding-top: 551px;
     &__slider {
       display: none;
     }
@@ -1797,7 +1800,7 @@ input:focus {
   &__description {
     img {
       margin-top: 53px;
-      margin-bottom: 17.3px;
+      margin-bottom: 17px;
     }
     p {
       font-family: 'FuturaBookC';
@@ -1829,17 +1832,17 @@ input:focus {
     margin-top: 0;
     h2 {
       font-size: 22px;
-      line-height: 138.6%;
+      line-height: 139%;
     }
     p {
       width: 91%;
       font-size: 15px;
-      line-height: 135.84%;
+      line-height: 136%;
     }
     &__members_member_logo {
       .member-img {
         width: 304px;
-        height: 357.63px;
+        height: 358px;
       }
     }
     &__members_member_info {
@@ -1861,7 +1864,7 @@ input:focus {
 }
 .our-clients {
   text-align: center;
-  padding-bottom: 354.61px;
+  padding-bottom: 355px;
   @media (max-width: 500px) {
     display: none;
   }
@@ -1942,10 +1945,10 @@ input:focus {
     &_client_info {
       position: absolute;
       left: 0;
-      bottom: -27.015px;
+      bottom: -27px;
       display: flex;
-      width: 293.75px;
-      height: 54.03px;
+      width: 294px;
+      height: 54px;
       p {
         font-family: 'Yeseva One';
         font-style: normal;
@@ -1959,14 +1962,14 @@ input:focus {
         @include border-box();
         border-right: 1px solid white;
         padding-top: 17px;
-        padding-left: 20.3px;
-        padding-bottom: 14.61px;
+        padding-left: 20px;
+        padding-bottom: 15px;
         display: flex;
         align-items: center;
         width: 135px;
         background-color: $gold-color;
         img {
-          margin-right: 15.4px;
+          margin-right: 15px;
         }
       }
       &_days {
@@ -1977,7 +1980,7 @@ input:focus {
         width: 159px;
         background-color: $gold-color;
         img {
-          margin-right: 15.4px;
+          margin-right: 15px;
         }
       }
     }
@@ -1994,16 +1997,18 @@ input:focus {
   display: flex;
   flex-direction: column;
   text-align: center;
-  ::-moz-placeholder          {color:white;}/* Firefox 19+ */
-  ::-webkit-input-placeholder {color:white;}
-  :-moz-placeholder           {color:white;}/* Firefox 18- */
-  :-ms-input-placeholder      {color:white;}
+  ::-moz-placeholder {color:white}
+  ::-webkit-input-placeholder {color:white}
+  :-moz-placeholder {color:white}
+  :-ms-input-placeholder {
+    color:white;
+  }
   .questions-form {
       @include border-box();
-      padding: 34.5px 181.5px;
+      padding: 35px 182px;
       width: 883px;
       margin: 0 auto;
-      margin-top: -241.25px;
+      margin-top: -241px;
       background-color: $black-color;
       h2 {
         margin-bottom: 46px;
@@ -2042,7 +2047,7 @@ input:focus {
         width: 100%;
         background-color: #131313;
         font-size: 18px;
-        line-height: 138.72%;
+        line-height: 139%;
         color: white;
         border: none;
         border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -2083,7 +2088,7 @@ input:focus {
   }
   .checkbox3 {
     position: relative;
-    margin-right: 8.62px;
+    margin-right: 9px;
     width: 18px;
     height: 18px;
     background-color: gray;
@@ -2113,7 +2118,7 @@ input:focus {
     }
   }
   input[type="submit"] {
-    margin-top: 50.5px;
+    margin-top: 51px;
   }
   &__contacts {
     margin-top: 52px;
@@ -2132,7 +2137,7 @@ input:focus {
     div {
       display: flex;
       justify-content: center;
-      margin-bottom: 43.3px;
+      margin-bottom: 43px;
     }
     .logo-circle {
       display: flex;
@@ -2148,7 +2153,7 @@ input:focus {
     }
   }
   &__map {
-    margin-bottom: 65.93px;
+    margin-bottom: 66px;
   }
   .map-mobile {
     display: none;
@@ -2160,7 +2165,7 @@ input:focus {
 @media (max-width: 1000px) {
   .questions-form-and-contacts {
     .questions-form {
-      padding: 34.5px 63.5px;
+      padding: 35px 64px;
       width: 642px;
     }
     &__map img{
@@ -2171,7 +2176,7 @@ input:focus {
 @media (max-width: 700px) {
   .questions-form-and-contacts {
     .questions-form {
-      padding: 34.5px 24.5px;
+      padding: 35px 25px;
       width: 528px;
     }
     .questions-form_inputs .name {
@@ -2214,18 +2219,18 @@ input:focus {
     &__contacts {
       order: 3;
       font-size: 18px;
-      line-height: 138.6%;
+      line-height: 139%;
       .logo-circle {
         width: 39px;
         height: 39px;
       }
       .logo-circle .message{
-        width: 19.5px;
-        height: 15.6px;
+        width: 20px;
+        height: 16px;
       }
       .logo-circle .instagram{
-        width: 16.71px;
-        height: 16.71px;
+        width: 17px;
+        height: 17px;
       }
     }
     &__map {
@@ -2257,7 +2262,7 @@ footer {
     display: flex;
     justify-content: space-between;
   }
-  padding: 48px 7% 48px 5.7%;
+  padding: 48px 7% 48px 6%;
   .logo {
     text-transform: uppercase;
     color: #E3B873;
@@ -2300,7 +2305,7 @@ footer {
     font-weight: 400;
   }
   .nav__element {
-    margin-left: 47.09px;
+    margin-left: 47px;
     &_home {
       margin-left: 0;
     }
