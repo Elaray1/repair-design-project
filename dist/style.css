@@ -166,22 +166,22 @@ input:focus {
   }
 }
 
-.instagram-image-wrapper {
+.instagram-block {
   display: flex;
   flex-wrap: wrap;
   height: 707px;
 }
 @media (max-width: 1100px) {
-  .instagram-image-wrapper {
+  .instagram-block {
     height: 550px;
   }
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper {
+  .instagram-block {
     height: 476px;
   }
 }
-.instagram-image-wrapper__instagram {
+.instagram-block__instagram {
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -190,26 +190,26 @@ input:focus {
   padding: 199px 31px 408px;
 }
 @media (max-width: 1100px) {
-  .instagram-image-wrapper__instagram {
+  .instagram-block__instagram {
     display: none;
   }
 }
-.instagram-image-wrapper__instagram__block {
+.instagram-block__instagram__block {
   position: relative;
 }
-.instagram-image-wrapper__instagram__block p {
+.instagram-block__instagram__block p {
   transform: rotate(90deg);
   transform-origin: left;
   color: #E3B873;
 }
-.instagram-image-wrapper__instagram__block p:hover {
+.instagram-block__instagram__block p:hover {
   color: #E3B820;
 }
-.instagram-image-wrapper__instagram__block img {
+.instagram-block__instagram__block img {
   position: absolute;
   top: 100px;
 }
-.instagram-image-wrapper__image-block {
+.instagram-block__image-block {
   background-image: url("../assets/image_block.png");
   background-position: center;
   width: 94%;
@@ -220,18 +220,18 @@ input:focus {
   padding: 194px 0px 0px 60px;
 }
 @media (max-width: 1100px) {
-  .instagram-image-wrapper__image-block {
+  .instagram-block__image-block {
     width: 100%;
     padding-top: 129px;
   }
 }
 @media (max-width: 1100px) {
-  .instagram-image-wrapper__image-block {
+  .instagram-block__image-block {
     padding-top: 85px;
     padding-left: 9px;
   }
 }
-.instagram-image-wrapper__image-block h2 {
+.instagram-block__image-block h2 {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -239,22 +239,22 @@ input:focus {
   line-height: 53px;
   text-transform: uppercase;
 }
-.instagram-image-wrapper__image-block h2:nth-child(2) {
+.instagram-block__image-block h2:nth-child(2) {
   margin-bottom: 19px;
 }
 @media (max-width: 1100px) {
-  .instagram-image-wrapper__image-block h2 {
+  .instagram-block__image-block h2 {
     font-size: 35px;
     line-height: 41px;
   }
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper__image-block h2 {
+  .instagram-block__image-block h2 {
     font-size: 23px;
     line-height: 31px;
   }
 }
-.instagram-image-wrapper__image-block p {
+.instagram-block__image-block p {
   max-width: 504px;
   font-family: "FuturaBookC";
   font-style: normal;
@@ -263,26 +263,26 @@ input:focus {
   line-height: 30px;
 }
 @media (max-width: 1100px) {
-  .instagram-image-wrapper__image-block p {
+  .instagram-block__image-block p {
     font-size: 18px;
     line-height: 24px;
   }
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper__image-block p {
+  .instagram-block__image-block p {
     width: 82%;
   }
 }
-.instagram-image-wrapper__image-block__btns {
+.instagram-block__image-block__btns {
   display: flex;
   margin-top: 41px;
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper__image-block__btns {
+  .instagram-block__image-block__btns {
     flex-direction: column;
   }
 }
-.instagram-image-wrapper__image-block__btns p {
+.instagram-block__image-block__btns p {
   font-family: "FuturaDemiC";
   font-style: normal;
   font-weight: 400;
@@ -316,7 +316,7 @@ input:focus {
     height: 51px;
   }
 }
-.instagram-image-wrapper__image-block__btns__submit-btn {
+.instagram-block__image-block__btns__submit-btn {
   width: 207px;
   height: 51px;
   padding: 19px 21px 21px 22px;
@@ -327,24 +327,24 @@ input:focus {
   border-radius: 2px;
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper__image-block__btns__submit-btn {
+  .instagram-block__image-block__btns__submit-btn {
     display: none;
   }
 }
-.instagram-image-wrapper__image-block__btns__submit-btn:hover {
+.instagram-block__image-block__btns__submit-btn:hover {
   background-color: #E3B820;
 }
-.instagram-image-wrapper__image-block__btns__submit-btn__mobile {
+.instagram-block__image-block__btns__submit-btn__mobile {
   display: none;
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper__image-block__btns__submit-btn__mobile {
+  .instagram-block__image-block__btns__submit-btn__mobile {
     display: block;
     width: 338.61px;
     height: 51px;
   }
 }
-.instagram-image-wrapper__scroll {
+.instagram-block__scroll {
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -357,15 +357,15 @@ input:focus {
   background-color: #131313;
 }
 @media (max-width: 550px) {
-  .instagram-image-wrapper__scroll {
+  .instagram-block__scroll {
     display: none;
   }
 }
-.instagram-image-wrapper__scroll div {
+.instagram-block__scroll div {
   display: flex;
   transition: all 0.5s;
 }
-.instagram-image-wrapper__scroll p {
+.instagram-block__scroll p {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -382,7 +382,7 @@ input:focus {
   top: 12px;
   left: 9px;
 }
-.instagram-image-wrapper__scroll div:hover {
+.instagram-block__scroll div:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: all 0.5s;
@@ -465,28 +465,28 @@ input:focus {
 .completed-projects__slider {
   padding-top: 100px;
 }
-.completed-projects__slider__images {
+.completed-projects__slider-images {
   position: relative;
   display: flex;
 }
 @media (max-width: 1400px) {
-  .completed-projects__slider__images .slider-img {
+  .completed-projects__slider-images .slider-img {
     width: 100%;
     max-width: 679px;
   }
 }
-.completed-projects__slider__images img:hover {
+.completed-projects__slider-images img:hover {
   box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
-.completed-projects__slider__images img:nth-child(2) {
+.completed-projects__slider-images img:nth-child(2) {
   margin-left: 21px;
 }
 @media (max-width: 1400px) {
-  .completed-projects__slider__images img:nth-child(2) {
+  .completed-projects__slider-images img:nth-child(2) {
     display: none;
   }
 }
-.completed-projects__slider__images .slider-button {
+.completed-projects__slider-images .slider-button {
   position: absolute;
   top: 211px;
   right: 562px;
@@ -496,16 +496,16 @@ input:focus {
   background: #E3B873;
 }
 @media (max-width: 1400px) {
-  .completed-projects__slider__images .slider-button {
+  .completed-projects__slider-images .slider-button {
     right: 20px;
   }
 }
-.completed-projects__slider__images .slider-button img {
+.completed-projects__slider-images .slider-button img {
   position: absolute;
   left: 23px;
   top: 19px;
 }
-.completed-projects__slider__images .slider-button:hover {
+.completed-projects__slider-images .slider-button:hover {
   cursor: pointer;
   box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
 }
@@ -644,7 +644,7 @@ input:focus {
   .completed-projects .description-and-slider {
     display: block;
   }
-  .completed-projects .completed-projects__slider__images .slider-button {
+  .completed-projects .completed-projects__slider-images .slider-button {
     right: 3%;
   }
   .completed-projects .completed-projects__description__title {
@@ -669,12 +669,12 @@ input:focus {
   }
 }
 @media (max-width: 600px) {
-  .completed-projects .completed-projects__slider__images .slider-button {
+  .completed-projects .completed-projects__slider-images .slider-button {
     top: 174px;
     width: 36px;
     height: 36px;
   }
-  .completed-projects .completed-projects__slider__images .slider-button img {
+  .completed-projects .completed-projects__slider-images .slider-button img {
     width: 6.26px;
     height: 10.96px;
     left: 16px;
@@ -685,17 +685,17 @@ input:focus {
   }
 }
 @media (max-width: 500px) {
-  .completed-projects .completed-projects__slider__images .slider-button {
+  .completed-projects .completed-projects__slider-images .slider-button {
     top: 110px;
   }
   .completed-projects .completed-projects__characteristic {
     width: 93%;
   }
-  .completed-projects .completed-projects__slider__images img {
+  .completed-projects .completed-projects__slider-images img {
     width: 340px;
     margin: 0 auto;
   }
-  .completed-projects .completed-projects__slider__images .slider-button {
+  .completed-projects .completed-projects__slider-images .slider-button {
     right: 12%;
   }
   .completed-projects .slider-left-button_mobile {
@@ -717,7 +717,7 @@ input:focus {
   }
 }
 @media (max-width: 400px) {
-  .completed-projects .completed-projects__slider__images .slider-button {
+  .completed-projects .completed-projects__slider-images .slider-button {
     right: 5%;
   }
   .completed-projects .slider-left-button_mobile {
